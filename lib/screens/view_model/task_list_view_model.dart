@@ -66,7 +66,7 @@ class TaskListViewModel with ChangeNotifier {
   Future<void> addTask(String text) async {
     // Провалидируем строчку немного
     if (text.trim().isEmpty) {
-      _errorMessage = 'Задача не может пыть пустой!';
+      _errorMessage = 'Задача не может быть пустой!';
     } else {
       _errorMessage = null;
 
