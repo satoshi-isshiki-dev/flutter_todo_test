@@ -17,11 +17,6 @@ class HiveManager {
     return _openBox(HiveBoxes.todo, 0, TaskAdapter());
   }
 
-  // Создать SettingsBox с проверками (на уже открытость и наличия адаптера)
-  // Future<Box<Task>> openTaskBox() async {
-  //   return _openBox(HiveBoxes.todo, 0, TaskAdapter());
-  // }
-
   Future<Box<T>> _openBox<T>(
     String name,
     int typeId,
