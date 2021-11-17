@@ -1,16 +1,18 @@
-# flutter_todo_test
+# Решение тестового задания (Intern/Junior)
 
-A new Flutter project.
+Задача: создать упрощенную версию одноэкранного приложения со списком задач на фреймворке Flutter
 
-## Getting Started
+1. Экран приложения должен соответствовать макету: https://www.figma.com/file/VTiPXedx9yZDpU8taS9yo3/Task-List
 
-This project is a starting point for a Flutter application.
+2. Должна присутствовать функция добавления новых задач: при нажатии на кнопку «+», в начале списка появляется новая задача с однострочным полем ввода и открывается клавиатура для заполнения названия задачи, при нажатии Ввода или закрытии клавиатуры, задача сохраняется.
 
-A few resources to get you started if this is your first Flutter project:
+3. Должна присутствовать функция изменения состояния задачи «выполнена» и «не выполнена» в обе стороны: при нажатии на невыполненную задачу, флажок становится отмеченным, при нажатии на выполненную задачу, флажок соотвественно становится неактивным.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+4. Данные со списком задач должны находиться в хранилище приложения, допускается использование любого варианта на своё усмотрение. Желательно, чтобы хранилище было постоянное, но можно использовать и временные хранилища.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+5. Приложение должно быть собрано под обе платформы: iOS и Android.
+
+Функции редактирования названия задач и их удаления не требуются.
+
+1 ![](test_app.gif)
+2 ![](posts.gif)
